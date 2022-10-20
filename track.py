@@ -293,7 +293,7 @@ def run(
                 cv2.putText(im0, str(count), org, font, 
                    fontScale, color, thickness, cv2.LINE_AA)
                 
-                """ start_point = (0, h-30)
+                start_point = (0, h-30)
                 end_point = (w, h-30)
                 cv2.line(im0, start_point, end_point, color, thickness=2)
             
@@ -303,7 +303,7 @@ def run(
                 cv2.line(im0, start_point, end_point, color, thickness=2)
                 
                 cv2.putText(im0, str(customer), (5,70), font, 
-                   fontScale, color, thickness, cv2.LINE_AA) """
+                   fontScale, color, thickness, cv2.LINE_AA)
 
                 print(count)
                 #print(customer)
